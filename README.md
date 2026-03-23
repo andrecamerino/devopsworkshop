@@ -243,18 +243,6 @@ Instead of pushing directly to `main`:
 3. Open a Pull Request on GitHub.
 4. See how CI runs automatically on the PR before merging!
 
-### Bonus 3 — Add a Linter Step
-
-Add a linting step to your workflow using `flake8`:
-
-```yaml
-- name: Install linter
-  run: pip install flake8
-
-- name: Run linter
-  run: flake8 app/ tests/ --max-line-length=100
-```
-
 ---
 
 ## Key Takeaways
